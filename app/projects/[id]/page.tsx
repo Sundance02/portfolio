@@ -31,7 +31,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
               <div className="inline-flex items-center gap-2 px-3 py-1 bg-surface-container-high rounded-full">
                 <span className="w-2 h-2 rounded-full bg-secondary"></span>
                 <span className="text-[10px] uppercase tracking-[0.2em] font-bold text-on-surface-variant font-label">
-                  {project.category} {project.year}
+                  {project.category}
                 </span>
               </div>
               <h1 className="text-7xl md:text-9xl font-extrabold tracking-tighter leading-none font-headline text-on-surface">
@@ -67,17 +67,10 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
                     ))}
                   </ul>
                 </div>
-                <div className="space-y-4">
-                  <h3 className="text-xs font-bold tracking-[0.3em] uppercase text-secondary font-label">Role</h3>
-                  <p className="text-on-surface-variant">{project.role}</p>
-                </div>
-                <div className="space-y-4">
-                  <h3 className="text-xs font-bold tracking-[0.3em] uppercase text-secondary font-label">Duration</h3>
-                  <p className="text-on-surface-variant">{project.duration}</p>
-                </div>
+
               </div>
               <div className="md:col-span-8 space-y-10">
-                <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-on-surface font-headline">The Challenge</h2>
+                <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-on-surface font-headline">Description</h2>
                 <div className="space-y-6">
                   <p className="text-lg md:text-xl text-on-surface-variant leading-relaxed">
                     {project.description}
@@ -93,7 +86,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
 
         {/* Gallery Section */}
         <section className="py-32 max-w-7xl mx-auto px-6 md:px-12">
-          <h2 className="text-3xl font-bold tracking-tight mb-16 text-center md:text-left font-headline">UI Architecture</h2>
+          <h2 className="text-3xl font-bold tracking-tight mb-16 text-center md:text-left font-headline">Samples</h2>
           {isAerocast ? (
             <div className="w-full h-auto overflow-hidden rounded-2xl bg-surface-container-low">
               <img
@@ -125,7 +118,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
           </Link>
         </section>
       </main>
-      <Footer />
+
     </>
   );
 }

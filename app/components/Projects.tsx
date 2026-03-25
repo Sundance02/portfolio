@@ -7,12 +7,7 @@ export default function Projects() {
         <div className="flex flex-col md:flex-row justify-between items-baseline mb-24 gap-8">
           <h2 className="text-7xl md:text-9xl font-black tracking-tighter opacity-10 leading-none">WORKS</h2>
           <div className="md:max-w-md">
-            <h3 className="text-sm font-label uppercase tracking-widest text-secondary mb-4">03. Selected Projects</h3>
-            <p className="text-on-surface-variant">A showcase of complex systems distilled into elegant interfaces.</p>
-            <a className="mt-6 inline-flex items-center gap-2 text-primary font-bold group" href="#">
-              View All Projects
-              <span className="w-8 h-[1px] bg-primary group-hover:w-16 transition-all"></span>
-            </a>
+            <h3 className="text-sm font-label uppercase tracking-widest text-secondary mb-4">03. Academic Projects</h3>
           </div>
         </div>
         <div className="grid md:grid-cols-12 gap-8">
