@@ -13,10 +13,10 @@ export default function About() {
           </p>
           <div className="grid md:grid-cols-2 gap-12">
             <p className="text-on-surface-variant text-lg leading-relaxed font-light">
-              Full Stack Developer with a strong foundation in developing web and mobile applications. Comprehensive experience in end-to-end development, from architecting databases (SQL & NoSQL) to building user interfaces with React, Next.js, and React Native.
+              Dynamic Full Stack Developer skilled in architecting end-to-end web and mobile solutions using React, Next.js, and React Native. Proficient in database design (SQL/NoSQL) and server-side logic with Express.js and Django. Experienced in deploying scalable AWS infrastructure using Load Balancers and optimizing workflows via Docker.
             </p>
             <p className="text-on-surface-variant text-lg leading-relaxed font-light">
-              Proficient in Express.js, Django, AWS, Load Balancers, Docker, and CI/CD pipelines. My approach centers on performance, scalability, and clean code architecture.
+              Demonstrated expertise in automating CI/CD pipelines through GitHub Webhooks and GCP for seamless delivery.
             </p>
           </div>
         </div>

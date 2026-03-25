@@ -21,7 +21,7 @@ export default function Projects() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent opacity-90"></div>
               <div className="absolute bottom-12 left-12 z-10">
-                <span className="text-xs font-label uppercase text-secondary tracking-widest mb-2 block">Full Stack</span>
+                <span className="text-xs font-label uppercase text-secondary tracking-widest mb-2 block">Website</span>
                 <h4 className="text-4xl font-bold tracking-tight text-on-surface mb-4">Aerocast</h4>
                 <div className="flex gap-2">
                   <span className="text-[10px] border border-outline-variant/30 px-2 py-1 rounded">Next.js</span>
@@ -41,10 +41,12 @@ export default function Projects() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent opacity-90"></div>
               <div className="absolute bottom-12 left-12 z-10">
-                <span className="text-xs font-label uppercase text-secondary tracking-widest mb-2 block">Academic • Mobile App</span>
+                <span className="text-xs font-label uppercase text-secondary tracking-widest mb-2 block">Website • Mobile Application • Deep learning</span>
                 <h4 className="text-3xl font-bold tracking-tight text-on-surface mb-4">Thesis Project</h4>
                 <div className="flex gap-2">
                   <span className="text-[10px] border border-outline-variant/30 px-2 py-1 rounded">React Native</span>
+                  <span className="text-[10px] border border-outline-variant/30 px-2 py-1 rounded">Next.js</span>
+                  <span className="text-[10px] border border-outline-variant/30 px-2 py-1 rounded">Express.js</span>
                   <span className="text-[10px] border border-outline-variant/30 px-2 py-1 rounded">PostgreSQL</span>
                 </div>
               </div>
@@ -61,7 +63,7 @@ export default function Projects() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent opacity-90"></div>
               <div className="absolute bottom-12 left-12 z-10">
-                <span className="text-xs font-label uppercase text-secondary tracking-widest mb-2 block">E-Learning • Web</span>
+                <span className="text-xs font-label uppercase text-secondary tracking-widest mb-2 block">Website</span>
                 <h4 className="text-4xl font-bold tracking-tight text-on-surface mb-2">OFFlearn</h4>
                 <p className="text-base text-on-surface-variant font-light max-w-xl">Offline accessible learning platform for instructors and students.</p>
                 <div className="flex gap-2 mt-4">
